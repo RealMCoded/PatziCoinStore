@@ -1,5 +1,5 @@
 window.onload = () => {
-    fetch('https://raw.githubusercontent.com/RealMCoded/Patzibot/master/commands/resources/json/items.json')
+    fetch('https://raw.githubusercontent.com/RealMCoded/Patzibot/master/resources/json/items.json')
     .then(response => response.json())
     .then(data => {
         const container = document.getElementById('container');
